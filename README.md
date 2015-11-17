@@ -5,8 +5,7 @@ HCL-LINT
 
 ```sh
 $ go get github.com/dwradcliffe/hcl-lint
-$ go run /go/src/github.com/dwradcliffe/hcl-lint/lint.go folder_path
-config_file ...
+$ go run /go/src/github.com/dwradcliffe/hcl-lint/lint.go folder_path config_file ...
 ```
 
 Lint's an arbitrary number of input arguments. If a folder path is specified,
