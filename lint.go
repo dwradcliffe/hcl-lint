@@ -30,7 +30,7 @@ func main() {
 				colorstring.Printf("[red]Error reading file: %s\n", err)
 				break
 			}
-			_, err = hcl.Parse(string(file))
+			_, err = hcl.ParseHCL(string(file))
 			if err != nil {
 				colorstring.Printf("[red]Error parsing file: %s\n", err)
 				break
