@@ -6,9 +6,9 @@ import (
 	"os"
 	"path/filepath"
 
-        "github.com/hashicorp/hcl/hclparse"
-        "github.com/hashicorp/hcl"
 	"github.com/mitchellh/colorstring"
+	"github.com/hashicorp/hcl"
+	"github.com/hashicorp/hcl/hclparse"
 )
 
 
